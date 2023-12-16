@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Simple Timer</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+    </script>
+<!-- -------------------------------------- -->
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+    body{
+        overflow: hidden;
+        background-color: rgba(105, 66, 8, 0.795);
+    }
+   h1{
+    line-height: 775px;
+    font-size: 65px;
+    font-weight: 550;
+    font-family: 'Poppins', sans-serif;
+   }
+   h5{
+    line-height: 885px;
+    font-weight: 550;
+    font-family: 'Poppins', sans-serif;
+   }
+   #ind{
+    line-height: 835px;
+    font-weight: 550;
+    font-family: 'Poppins', sans-serif;
+   }
+   .main{
+     background-size: cover;
+    object-fit: fill
+   }
+
+
+   /* ------------------------- */
+   
+</style>
+</head>
+<body>  
+    <!-- ---------------clock---------------------------------- -->
+        <div class="bg-transparent d-flex justify-content-center text-white main">
+            <div class="position-absolute d-flex">
+                <h1 class="ms-5 d-flex" id="clock">HH:MM:SS</h1>
+                <span class="ms-2 d-flex" id="ind">AM & PM</span>
+            </div>    
+            <div class="position-absolute d-flex">
+                <h5 class="ms-5 d-flex" id="cldate">dd/mm/yyyy</h5>  
+            </div>     
+        </div>
+       
+        <img src="./assets/lg.jpg" width="100%" height="1000vh" alt="">
+    <!-- --------------------------------------------- -->
+    <script src="script.js"></script>
+</body>
+
+</html>
